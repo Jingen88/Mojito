@@ -135,38 +135,38 @@ const socials = [
 ];
 
 const sliderLists = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Classic Virgin Mojito",
+    image: "/images/drink1.png",
+    title: "Simple Ingredients, Bold Flavor",
+    description:
+      "A refreshing blend of muddled mint, fresh lime juice, and a touch of sweetness, topped with sparkling soda water. All the flavor of the classic, just without the rum.",
+  },
+  {
+    id: 2,
+    name: "Raspberry Nojito",
+    image: "/images/drink2.png",
+    title: "A Zesty Classic That Never Fails",
+    description:
+      "This vibrant mocktail balances sweet raspberries with tangy lime and fresh mint, creating a crisp and refreshing drink that's perfect for any occasion.",
+  },
+  {
+    id: 3,
+    name: "Enchanted Garden",
+    image: "/images/drink3.png",
+    title: "A Floral-Infused Delight",
+    description:
+      "A magical mix of elderflower cordial, a hint of lavender, and fresh lemon juice, topped with lemonade for a sparkling, non-alcoholic botanical treat.",
+  },
+  {
+    id: 4,
+    name: "Blue Lagoon Sparkler",
+    image: "/images/drink4.png",
+    title: "Crafted With Care, Poured With Love",
+    description:
+      "A dazzling non-alcoholic drink made with blue curaçao syrup, fresh pineapple juice, and a squeeze of lime, topped with soda for a brilliant, bubbly finish.",
+  },
 ];
 
 export {
