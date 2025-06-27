@@ -19,7 +19,7 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
+	name: "Chapel Hill Shirazzee",
 	country: "AU",
 	detail: "Battle",
 	price: "$10",
@@ -31,13 +31,13 @@ const cocktailLists = [
 	price: "$49",
  },
  {
-	name: "Rhino Pale Ale",
+	name: "Rhino Pale Whale",
 	country: "CA",
 	detail: "750 ml",
 	price: "$20",
  },
  {
-	name: "Irish Guinness",
+	name: "RootBear Guinness",
 	country: "IE",
 	detail: "600 ml",
 	price: "$29",
