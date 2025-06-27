@@ -1,5 +1,5 @@
 import React, { use } from 'react'
-import { mockTailLists } from '../../constants'
+import { mockTailLists, cocktailLists } from '../../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 
@@ -25,8 +25,8 @@ useGSAP(() => {
 
   return (
     <section id="cocktails" className="noisy">
-        <img id="c-left-leaf" src="/images/cocktail-left-leaf.png" alt="left leaf" className="left-leaf" />
-        <img id="c-right-leaf" src="/images/cocktail-right-leaf.png" alt="right leaf" className="right-leaf" />
+         <img src="/images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" />
+	 <img src="/images/cocktail-right-leaf.png" alt="r-leaf" id="c-right-leaf" />
 
 <div className='list'>
     <div className='popular'>
@@ -49,7 +49,7 @@ useGSAP(() => {
     <div className='loved'>
         <h2>Most Loved mocktails:</h2>
         <ul>
-            {mockTailLists.map(({name, country, detail, price}) => (
+            {cocktailLists.map(({name, country, detail, price}) => (
                 <li key={name}>
                     <div className='md:me-28'>
                         <h3>{name}</h3>
